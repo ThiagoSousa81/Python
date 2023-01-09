@@ -10,7 +10,7 @@ def main():
         Host = "localhost"
         Porta = 5443
     try:
-        s.connect((Host, int(porta)))
+        s.connect((Host, int(Porta)))
         print("Conetado")
         s.shutdown(2)
     except socket.error as e:
