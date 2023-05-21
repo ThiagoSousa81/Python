@@ -26,6 +26,7 @@ while (True):
         cpf = driver.find_element(By.ID, 'cpf')#.get_attribute('value')
         email = driver.find_element(By.ID, 'email')#.get_attribute('value')
         senha = driver.find_element(By.ID, 'senha')#.get_attribute('value')
+        print('-' * 50)
 
         # Imprimir os dados gerados
         print('Nome:', nome.text)
